@@ -15,6 +15,7 @@
     "registry": "https://npm.pkg.github.com/@FreeGameIsAFreeGame"
   },
   "devDependencies": {
+    "@droidsolutions-oss/semantic-release-nuget": "^1.1.1",
     "@semantic-release/changelog": "^6.0.1",
     "@semantic-release/commit-analyzer": "^9.0.2",
     "@semantic-release/git": "^10.0.1",
@@ -57,14 +58,6 @@
           }
         }
       ],
-    "@droidsolutions-oss/semantic-release-update-file",
-      [
-        "@semantic-release/npm",
-        {
-          "npmPublish": true
-        }
-      ],
-    "@droidsolutions-oss/semantic-release-nuget",
       "@semantic-release/github",
       [
         "@semantic-release/release-notes-generator",
