@@ -1,3 +1,10 @@
+### [1.3.8](https://github.com/FreeGameIsAFreeGame/semantic-release-nuget-test/compare/v1.3.7...v1.3.8) (2022-06-05)
+
+
+### Bug Fixes
+
+* using PAT instead of GITHUB_TOKEN ([c33cce9](https://github.com/FreeGameIsAFreeGame/semantic-release-nuget-test/commit/c33cce96ddfadafa3436a8a0ef4ebbba80344917))
+
 ### [1.3.7](https://github.com/FreeGameIsAFreeGame/semantic-release-nuget-test/compare/v1.3.6...v1.3.7) (2022-06-05)
 
 
