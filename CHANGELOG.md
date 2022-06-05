@@ -1,3 +1,10 @@
+### [1.3.9](https://github.com/FreeGameIsAFreeGame/semantic-release-nuget-test/compare/v1.3.8...v1.3.9) (2022-06-05)
+
+
+### Bug Fixes
+
+* added repository url ([bf84ba0](https://github.com/FreeGameIsAFreeGame/semantic-release-nuget-test/commit/bf84ba0ec8566c3013f5e9813c0c49dc8fd1548b))
+
 ### [1.3.8](https://github.com/FreeGameIsAFreeGame/semantic-release-nuget-test/compare/v1.3.7...v1.3.8) (2022-06-05)
 
 
