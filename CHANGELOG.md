@@ -1,3 +1,10 @@
+### [1.3.4](https://github.com/FreeGameIsAFreeGame/semantic-release-nuget-test/compare/v1.3.3...v1.3.4) (2022-06-05)
+
+
+### Bug Fixes
+
+* added paths to dotnet build and dotnet test ([f706753](https://github.com/FreeGameIsAFreeGame/semantic-release-nuget-test/commit/f7067533cf91ff2f335f0d15c4058ca113c21fa1))
+
 ### [1.3.3](https://github.com/FreeGameIsAFreeGame/semantic-release-nuget-test/compare/v1.3.2...v1.3.3) (2022-06-05)
 
 
