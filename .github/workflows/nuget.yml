@@ -1,6 +1,5 @@
 name: Nuget
 on:
-  workflow_dispatch:
   release:
     types: [published]
 
@@ -41,7 +40,7 @@ jobs:
         uses: vers-one/dotnet-project-version-updater@v1.0
         with:
           file: "${{ env.PROJECT_DIRECTORY }}/${{ env.PROJECT_FILE }}"
-          version: ${{ env.GITHUB_REF_NAME }}
+          version: ${{ github.event.release.tag_name }}
       - name: Pack
         run: dotnet pack repo/${{ env.PROJECT_DIRECTORY }} -c ${{ env.PACK_CONFIGURATION }} --output nupkgs
       - name: Add source
