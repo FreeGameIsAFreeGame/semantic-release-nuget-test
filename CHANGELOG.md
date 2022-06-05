@@ -1,3 +1,14 @@
+## [3.0.0](https://github.com/FreeGameIsAFreeGame/semantic-release-nuget-test/compare/v2.0.0...v3.0.0) (2022-06-05)
+
+
+### ⚠ BREAKING CHANGES
+
+* removed package.json
+
+### Features
+
+* removed package.json ([1f3ab6c](https://github.com/FreeGameIsAFreeGame/semantic-release-nuget-test/commit/1f3ab6c55721fcefb2c57ee46c217bd8cb963f27))
+
 ## [2.0.0](https://github.com/FreeGameIsAFreeGame/semantic-release-nuget-test/compare/v1.4.1...v2.0.0) (2022-06-05)
 
 
