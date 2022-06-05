@@ -1,3 +1,10 @@
+### [1.3.7](https://github.com/FreeGameIsAFreeGame/semantic-release-nuget-test/compare/v1.3.6...v1.3.7) (2022-06-05)
+
+
+### Bug Fixes
+
+* not really a fix ([7f7a3c7](https://github.com/FreeGameIsAFreeGame/semantic-release-nuget-test/commit/7f7a3c733f633f65703b5e392855a8ceb708f76b))
+
 ### [1.3.6](https://github.com/FreeGameIsAFreeGame/semantic-release-nuget-test/compare/v1.3.5...v1.3.6) (2022-06-05)
 
 
