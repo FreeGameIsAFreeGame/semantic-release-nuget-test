@@ -1,3 +1,10 @@
+### [1.3.1](https://github.com/FreeGameIsAFreeGame/semantic-release-nuget-test/compare/v1.3.0...v1.3.1) (2022-06-05)
+
+
+### Bug Fixes
+
+* updated location of csproj file ([962a183](https://github.com/FreeGameIsAFreeGame/semantic-release-nuget-test/commit/962a183a1cbc1f9ab9db05f08d7cb81dd8e6ba91))
+
 ## [1.3.0](https://github.com/FreeGameIsAFreeGame/semantic-release-nuget-test/compare/v1.2.2...v1.3.0) (2022-06-05)
 
 
