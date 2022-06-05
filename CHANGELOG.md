@@ -1,3 +1,11 @@
+## [1.2.0](https://github.com/FreeGameIsAFreeGame/semantic-release-nuget-test/compare/v1.1.0...v1.2.0) (2022-06-05)
+
+
+### Features
+
+* added Nuget workflow ([13c1af7](https://github.com/FreeGameIsAFreeGame/semantic-release-nuget-test/commit/13c1af7dfa2d09e265f5ec7527a99759d2250078))
+* added workflow dispatch option ([4d7d86d](https://github.com/FreeGameIsAFreeGame/semantic-release-nuget-test/commit/4d7d86d69f1dfe54a2f90ffe5c925522020306bd))
+
 ## [1.1.0](https://github.com/FreeGameIsAFreeGame/semantic-release-nuget-test/compare/v1.0.0...v1.1.0) (2022-06-05)
 
 
