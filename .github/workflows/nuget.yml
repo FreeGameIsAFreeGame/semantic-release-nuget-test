@@ -5,7 +5,7 @@ on:
 
 env:
   PROJECT_DIRECTORY: src
-  PROJECT_FILE: src/ClassLibrary1/ClassLibrary.csproj
+  PROJECT_FILE: src/ClassLibrary1/ClassLibrary1.csproj
   PACK_CONFIGURATION: Release
   SOURCE_USERNAME: FreeGameIsAFreeGame
   SOURCE_URL: https://nuget.pkg.github.com/FreeGameIsAFreeGame/index.json
