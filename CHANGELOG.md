@@ -1,3 +1,10 @@
+## [1.4.0](https://github.com/FreeGameIsAFreeGame/semantic-release-nuget-test/compare/v1.3.9...v1.4.0) (2022-06-05)
+
+
+### Features
+
+* added nuget password in env ([59bfa50](https://github.com/FreeGameIsAFreeGame/semantic-release-nuget-test/commit/59bfa50a23a6bbdb436fb7d00193a1f1f67eb271))
+
 ### [1.3.9](https://github.com/FreeGameIsAFreeGame/semantic-release-nuget-test/compare/v1.3.8...v1.3.9) (2022-06-05)
 
 
