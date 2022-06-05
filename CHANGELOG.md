@@ -1,3 +1,10 @@
+### [1.4.1](https://github.com/FreeGameIsAFreeGame/semantic-release-nuget-test/compare/v1.4.0...v1.4.1) (2022-06-05)
+
+
+### Bug Fixes
+
+* changed env to secrets ([a168818](https://github.com/FreeGameIsAFreeGame/semantic-release-nuget-test/commit/a168818d38cfe09fce3c11081d8484ab98982030))
+
 ## [1.4.0](https://github.com/FreeGameIsAFreeGame/semantic-release-nuget-test/compare/v1.3.9...v1.4.0) (2022-06-05)
 
 
