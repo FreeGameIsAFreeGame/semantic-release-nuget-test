@@ -40,4 +40,4 @@ jobs:
       - name: Add source
         run: dotnet nuget add source --username ${{ env.SOURCE_USERNAME }} --password ${{ secrets.GITHUB_TOKEN }} --store-password-in-clear-text --name github "${{ env.SOURCE_URL }}"
       - name: Push package
-        run: dotnet nuget push nupkgs/*.nupkg --api-key ${{ secrets.PAT }} --source "github"
+        run: dotnet nuget push nupkgs/*.nupkg --api-key ${{ secrets.GITHUB_TOKEN }} --source "github"
