@@ -9,7 +9,7 @@ env:
   PACK_CONFIGURATION: Release
   SOURCE_USERNAME: FreeGameIsAFreeGame
   SOURCE_URL: https://nuget.pkg.github.com/FreeGameIsAFreeGame/index.json
-  NUGET_PASSWORD: ${{ env.PAT }}
+  NUGET_PASSWORD: ${{ secrets.PAT }}
 
 jobs:
   build:
