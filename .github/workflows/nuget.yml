@@ -1,0 +1,42 @@
+name: Nuget
+on:
+  release:
+    types: [published]
+
+env:
+  PROJECT_DIRECTORY: src
+  PACK_CONFIGURATION: Release
+  SOURCE_USERNAME: FreeGameIsAFreeGame
+  SOURCE_URL: https://nuget.pkg.github.com/FreeGameIsAFreeGame/index.json
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v2
+        with:
+          dotnet-version: 5.0.x
+      - name: Restore dependencies
+        run: dotnet restore
+      - name: Build
+        run: dotnet build --no-restore
+      - name: Test
+        run: dotnet test --no-build --verbosity normal
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          path: repo
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v1
+        with:
+          dotnet-version: 5.0.x
+      - name: Pack
+        run: dotnet pack repo/${{ env.PROJECT_DIRECTORY }} -c ${{ env.PACK_CONFIGURATION }} --output nupkgs
+      - name: Add source
+        run: dotnet nuget add source --username ${{ env.SOURCE_USERNAME }} --password ${{ secrets.GITHUB_TOKEN }} --store-password-in-clear-text --name github "${{ env.SOURCE_URL }}"
+      - name: Push package
+        run: dotnet nuget push nupkgs/*.nupkg --api-key ${{ secrets.PAT }} --source "github"
