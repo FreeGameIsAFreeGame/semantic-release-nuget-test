@@ -1,3 +1,10 @@
+### [1.2.2](https://github.com/FreeGameIsAFreeGame/semantic-release-nuget-test/compare/v1.2.1...v1.2.2) (2022-06-05)
+
+
+### Bug Fixes
+
+* added project properties ([2e4f0ae](https://github.com/FreeGameIsAFreeGame/semantic-release-nuget-test/commit/2e4f0aead0347c04c0f03d96f7294711ada78a34))
+
 ### [1.2.1](https://github.com/FreeGameIsAFreeGame/semantic-release-nuget-test/compare/v1.2.0...v1.2.1) (2022-06-05)
 
 
